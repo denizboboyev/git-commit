@@ -14,6 +14,10 @@ body{
         max-width: 1440px;
         height: 800px;
         background-image: url(../img/bcgimg.svg);
-        
+       header{
+        max-width: 1110px;
+        margin: auto;
+        display: flex;
+       } 
     }
 }
