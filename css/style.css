@@ -61,4 +61,16 @@ body {
   font-weight: 600;
   line-height: 25px; /* 138.889% */
   letter-spacing: -0.129px;
+}
+.wrapper .wrap .wery {
+  padding-top: 105px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Fraunces 9pt Soft";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 8.75px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
