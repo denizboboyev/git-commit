@@ -111,4 +111,65 @@ body {
   line-height: 25px; /* 166.667% */
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+.wrapper main .avatar {
+  padding-top: 160px;
+  max-width: 1440px;
+  margin: auto;
+}
+.wrapper main .avatar h1 {
+  color: #A7AAAD;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+.wrapper main .avatar .client {
+  padding-top: 81px;
+  max-width: 1110px;
+  margin: auto;
+  display: flex;
+}
+.wrapper main .avatar .client .put {
+  max-width: 350px;
+  margin: auto;
+  color: #5B636D;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.129px;
+}
+.wrapper main .avatar .client .put p {
+  color: #5B636D;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: -0.129px;
+  padding-top: 58px;
+}
+.wrapper main .avatar .client .put h3 {
+  padding-top: 69px;
+  color: #24303E;
+  text-align: center;
+  font-family: "Fraunces 9pt Soft";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.129px;
+}
+.wrapper main .img {
+  padding-top: 178px;
+  max-width: 1440px;
+}
+.wrapper main .img img {
+  width: 350px;
 }/*# sourceMappingURL=style.css.map */
