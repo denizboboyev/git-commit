@@ -19,6 +19,11 @@ body{
             display: flex;
             column-gap: 30px;
             align-items: center;
+            .menu{
+                img{
+                    display: none;
+                }
+            }
             button{
                 color: #24303E;
                 font-family: "Fraunces 9pt Soft";
@@ -173,5 +178,45 @@ letter-spacing: -0.129px;
                    }
                    
       }
+
+    }
+    footer{
+        max-width: 1440px;
+        height: 350px;
+        background: #90D4C6;
+        margin: auto;
+        .emotsiya{
+          max-width: 297px;
+          margin: auto;
+          img{
+            padding-left: 60px;
+            padding-top: 72px;
+          }
+          .p{
+            display: flex;
+            column-gap: 20px;
+            text-align: center;
+            justify-content: center;
+            p{
+                padding-top: 40px;
+                color: #458D7E;
+                font-family: Barlow;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 25px; /* 138.889% */
+                letter-spacing: -0.129px;
+            }
+          }
+        }
+    }
+}
+@media(max-width:720px){
+    .wrapper{
+        .wrap{
+            background-image: url(/img/mini-bcg.svg);
+            background-repeat: no-repeat;
+            
+        }
     }
 }
