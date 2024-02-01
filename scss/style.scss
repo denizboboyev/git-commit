@@ -72,6 +72,44 @@ text-transform: uppercase;
        }
     }
     main{
-        
+      max-width: 1440px;
+      display: flex;  
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .trans{
+        max-width: 445px;
+        margin: auto;
+        h1{
+            font-family: Fraunces 9pt Soft;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 49px;
+            letter-spacing: -0.2857142984867096px;
+            text-align: left;
+             
+        }
+        p{
+            padding-top: 32px;
+            color: #808397;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 166.667% */
+letter-spacing: -0.129px;
+        }
+        .learn{
+            p{
+            padding-top: 40px;
+            color: #000000;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 25px; /* 166.667% */
+            letter-spacing: 1px;
+            text-transform: uppercase; 
+            }
+        }
+      }
     }
 }
