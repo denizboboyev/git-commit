@@ -21,4 +21,44 @@ body {
   max-width: 1110px;
   margin: auto;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper .wrap header .btn-text {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  align-items: center;
+}
+.wrapper .wrap header .btn-text button {
+  color: #24303E;
+  font-family: "Fraunces 9pt Soft";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: -0.107px;
+  text-transform: uppercase;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 28px;
+}
+.wrapper .wrap header .text {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.wrapper .wrap header .text p {
+  color: #FFF;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: -0.129px;
 }/*# sourceMappingURL=style.css.map */

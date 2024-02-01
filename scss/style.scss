@@ -15,9 +15,47 @@ body{
         height: 800px;
         background-image: url(../img/bcgimg.svg);
        header{
+        .btn-text{
+            display: flex;
+            column-gap: 30px;
+            align-items: center;
+            button{
+                color: #24303E;
+                font-family: "Fraunces 9pt Soft";
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 25px; /* 166.667% */
+                letter-spacing: -0.107px;
+                text-transform: uppercase;
+                padding-left: 30px;
+                padding-top:15px;
+                padding-right: 30px;
+                padding-bottom: 15px;
+                border:0;
+                outline: 0;
+                cursor: pointer;
+                border-radius: 28px;
+            }
+        }
+        .text{
+            display: flex;
+            column-gap: 40px;
+            p{
+                color: #FFF;
+                font-family: Barlow;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 25px; /* 138.889% */
+                letter-spacing: -0.129px; 
+            }
+        }
         max-width: 1110px;
         margin: auto;
         display: flex;
+        justify-content: space-between;
+        align-items: center;
        } 
     }
 }
