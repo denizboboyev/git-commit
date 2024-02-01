@@ -77,6 +77,11 @@ text-transform: uppercase;
        }
     }
     main{
+        .mini-eye{
+            img{
+                display: none;
+            }
+        }
       max-width: 1440px;
       display: flex;  
       flex-wrap: wrap;
@@ -176,6 +181,9 @@ letter-spacing: -0.129px;
                    img{
                     width: 350px;
                    }
+                   .svg{
+                    display: none;
+                   }
                    
       }
 
@@ -213,10 +221,71 @@ letter-spacing: -0.129px;
 }
 @media(max-width:720px){
     .wrapper{
+            // max-width: ;
         .wrap{
+            max-width: 500px;
+            margin: auto;
             background-image: url(/img/mini-bcg.svg);
             background-repeat: no-repeat;
-            
+            .btn-text{
+                button{
+                    display: none;
+                }
+                .menu{
+                        img{
+                            display: inline-block;
+                        }
+                }
+                .text{
+                   
+                    p{
+                        display: none;
+                    }
+                }
+            }
+        }
+        main{
+            max-width: 500px;
+            margin: auto;
+            transform: translateY(-150px);
+            .cherry{
+                
+                    display: none;
+            }
+            .photo{
+                display: none;
+            }
+            .mini-cherry{
+                img{
+                    display:inline-block;
+                }
+            }
+            .eye{
+                img{
+                    display: none;
+                }
+            }
+            .mini-eye{
+                img{
+                    display: inline-block;
+                }
+            }
+            .client{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .img{
+                img{
+                    display: none;
+                }
+                .svg{
+                        display: inline-block;  
+                }
+            }
+           
         }
     }
+    footer{
+    transform: translateY(-300px);
+     }
 }

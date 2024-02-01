@@ -83,6 +83,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.wrapper main .mini-eye img {
+  display: none;
+}
 .wrapper main .trans {
   max-width: 445px;
   margin: auto;
@@ -176,6 +179,9 @@ body {
 .wrapper main .img img {
   width: 350px;
 }
+.wrapper main .img .svg {
+  display: none;
+}
 .wrapper footer {
   max-width: 1440px;
   height: 350px;
@@ -210,7 +216,51 @@ body {
 
 @media (max-width: 720px) {
   .wrapper .wrap {
+    max-width: 500px;
+    margin: auto;
     background-image: url(/img/mini-bcg.svg);
     background-repeat: no-repeat;
+  }
+  .wrapper .wrap .btn-text button {
+    display: none;
+  }
+  .wrapper .wrap .btn-text .menu img {
+    display: inline-block;
+  }
+  .wrapper .wrap .btn-text .text p {
+    display: none;
+  }
+  .wrapper main {
+    max-width: 500px;
+    margin: auto;
+    transform: translateY(-150px);
+  }
+  .wrapper main .cherry {
+    display: none;
+  }
+  .wrapper main .photo {
+    display: none;
+  }
+  .wrapper main .mini-cherry img {
+    display: inline-block;
+  }
+  .wrapper main .eye img {
+    display: none;
+  }
+  .wrapper main .mini-eye img {
+    display: inline-block;
+  }
+  .wrapper main .client {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrapper main .img img {
+    display: none;
+  }
+  .wrapper main .img .svg {
+    display: inline-block;
+  }
+  footer {
+    transform: translateY(-300px);
   }
 }/*# sourceMappingURL=style.css.map */
